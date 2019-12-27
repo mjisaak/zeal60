@@ -8,9 +8,9 @@ use_7u_spacebar=0 ^
 use_iso_enter=1 ^
 disable_hhkb_blocker_leds=0 ^
 disable_when_usb_suspended=1 ^
-disable_after_timeout=10 ^
+disable_after_timeout=1 ^
 brightness=100 ^
-effect=0 ^
+effect=6 ^
 effect_speed=3 ^
 color_1=0,100,100 ^
 color_2=180,100,100 ^
@@ -42,9 +42,9 @@ KC_LCTL  KC_LGUI  KC_LALT  KC_NO    KC_NO    KC_NO    KC_NO    KC_SPC   KC_NO   
 zeal60 keymap 1 ^
 KC_GRV   KC_F1    KC_F2    KC_F3    KC_F4    KC_F5    KC_F6    KC_F7    KC_F8    KC_F9    KC_F10   KC_F11   KC_F12   KC_DEL  ^
 KC_NO    KC_NO    KC_LCTL  KC_LSFT  KC_APP   KC_NO    KC_NO    KC_NO    KC_UP    KC_NO    KC_PSCREEN   KC_NO    KC_NO    KC_NO   ^
-KC_TRNS  KC_NO    KC_NO    KC_NO    KC_NO    KC_NO    KC_HOME  KC_LEFT  KC_DOWN  KC_RIGHT KC_END   KC_NO    KC_NO    KC_NO ^
+KC_NO    KC_NO    KC_NO    KC_NO    KC_NO    KC_NO    KC_HOME  KC_LEFT  KC_DOWN  KC_RIGHT KC_END   KC_NO    KC_NO    KC_NO ^
 KC_TRNS  KC_NO    KC_NO    KC_NO    KC_NO    KC_NO    KC_NO    KC_NO    KC_AUDIO_MUTE  KC_AUDIO_VOL_DOWN   KC_AUDIO_VOL_UP KC_NO  KC_NO  KC_NO ^
-KC_TRNS  KC_NO  KC_NO  KC_MENU  KC_NO  KC_NO  KC_NO  KC_NO  KC_NO  KC_NO  KC_NO  KC_NO  KC_NO  KC_NO
+KC_TRNS  KC_TRNS  KC_TRNS KC_MENU  KC_NO  KC_NO  KC_NO  KC_NO  KC_NO  KC_NO  KC_NO  KC_NO  KC_NO  KC_NO
 
 zeal60 keymap 3 ^
 KC_TRNS  KC_TRNS  KC_TRNS  KC_TRNS  KC_TRNS  KC_TRNS  KC_TRNS  KC_TRNS  KC_TRNS  KC_TRNS  KC_TRNS  KC_TRNS  KC_TRNS  KC_TRNS ^
